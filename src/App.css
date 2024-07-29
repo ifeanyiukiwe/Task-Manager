@@ -1,0 +1,84 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 15px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
